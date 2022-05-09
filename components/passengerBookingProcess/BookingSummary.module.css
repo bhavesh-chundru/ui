@@ -1,0 +1,187 @@
+
+.Box{
+ background-color: gray;
+ padding:0 !important;
+ max-width: 71.25rem !important;
+}
+.hr{
+    background-color: #E1E1DF !important;
+    height: 1px !important;
+    width:68.25rem !important;
+    margin: 0px auto;
+}
+/* box 1 */
+.flex1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0.5rem;
+    /* border-radius: 16px 0 0 0; */
+    background-color: #FFFFFF;
+}
+.title{
+    font-weight: 600 !important;
+    font-size: 16px !important;
+    line-height: 24px !important;
+    padding:1rem 0 1rem 1.5rem;
+    border-radius: 1rem 0 0 0;
+}
+.bTitle{
+    color:#5C0FD9;
+    font-size: 18px !important;
+    font-weight: 600 !important;
+    line-height: 27px;
+    padding:0.906rem 2rem 0.906rem 0;
+}
+/* box1 */
+
+/* box 3 */
+.Box3{
+    padding:1rem 1.5rem 1rem 1.5rem;
+    margin-bottom: 0.5rem;
+    background-color: #FFFFFF;
+}
+.box3Tit1{
+    font-size: 18px !important;
+    font-weight: 600 !important;
+    line-height: 27px;
+
+    padding-bottom: 1rem;
+}
+.box3Tit1{
+    font-size: 18px !important;
+    font-weight: 600 !important;
+    line-height: 27px;
+}
+.b3con{
+    padding-bottom: 0.5rem;
+    font-weight: 500 !important;
+    font-size: 16px !important;
+    line-height: 24px;
+    color: #333333;
+}
+.b3flex1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.Rs{
+    margin-bottom: 1rem;
+}
+.mary{
+    margin-top: 1rem;
+    margin-bottom: 0.25rem;
+}
+.afare{
+    margin-bottom: 0.25rem;
+}
+/* box 3 */
+/* box 4 */
+.Box4{
+    padding:1rem 1.5rem 1rem 1.5rem;
+    margin-bottom: 0.5rem;
+    background-color: #FFFFFF;
+}
+.box4Tit{
+    font-weight: 600 !important;
+    font-size: 18px !important;
+    line-height: 27px;
+    color: #333333;
+    padding-bottom: 1rem;
+}
+.b4flex1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+.Panner{
+    padding-bottom: 0.5rem !important;
+}
+.caesar{
+    padding-top: 0.5rem !important;
+}
+.canIcon{
+    width:20px;
+    height: 20px;
+}
+/* box 4 */
+/* box 5 */
+.Box5{
+    padding:1rem 1.5rem 1rem 1.5rem;
+    margin-bottom: 0.5rem;
+    background-color: #FFFFFF;
+}
+.box5Tit{
+    font-weight: 600 !important;
+    font-size: 18px !important;
+    line-height: 27px;
+    color: #333333;
+    padding-bottom: 0.25rem;
+}
+.allBook{
+    margin-bottom: 1rem;
+}
+/* box 5 */
+/* box 6 */
+.Box6{
+    padding:1rem 1.5rem 1rem 1.5rem;
+    margin-bottom: 0.5rem;
+    background-color: #FFFFFF;
+}
+.box6Tit{
+    font-weight: 600 !important;
+    font-size: 18px !important;
+    line-height: 27px;
+    color: #333333;
+}
+.whatsApp{
+    width: 26.53px;
+    height: 26.67px;
+}
+.updates{
+    font-weight: 400;
+    font-size: 14px !important;
+    line-height: 21px !important;
+    color: #666666 !important;
+}
+.num{
+    color:black;
+}
+.box7Tit{
+    font-weight: 600 !important;
+    font-size: 18px !important;
+    line-height: 27px !important;
+    color: #333333 !important;
+    padding-top: 0.25rem;
+}
+/* box 6 */
+/* box 7 */
+.Box7{
+    padding:1rem 1.5rem 1rem 1.5rem;
+    margin-bottom: 0.5rem;
+    background-color: #FFFFFF;
+}
+.busIco{
+    width: 26.67px;
+    height: 24px;
+}
+.b7flex1{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    gap:4rem;
+}
+/* box 7 */
+.textArea{
+    width:300px ;
+}
+.color{
+    font-weight: 400 !important;
+    font-size: 14px !important;
+    line-height: 21px !important;
+    color: #666666;
+}

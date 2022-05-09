@@ -1,0 +1,55 @@
+.FlightDetails{ 
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    color: #5C0FD9;
+}
+
+.FlightsDetailsBlock{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    padding: 16px 24px;
+    background-color:#FFFFFF;
+}
+.ContactHeading{
+    padding : 24px 0 0 27px
+}
+.contactParagraph {
+    padding : 4px 0 0 27px
+}
+.ContactDetails{
+    display:flex;
+    flex-direction : row;
+    gap:16px
+}
+.CountryCodeField{
+    padding: 16px 0 24px 24px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+}
+.trackFlightPrice{
+    background-color:#F5F5F5;
+    height: 48px;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 4px;
+    margin : 27px 8px 0 0;
+  }
+  .SpeacialAssistance{
+    background-color:#F5F5F5;
+    width:312px;
+    height: 48px;
+    display:flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: 4px;
+    margin : 16px 0 10px 10px;
+    
+  }
+  .accordian{
+      display:flex !important;
+  }
+

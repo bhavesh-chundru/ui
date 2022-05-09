@@ -1,0 +1,47 @@
+.passHeadBlock{
+    width: 100% !important;
+    flex-shrink: 0 !important; 
+    background-color:#FF6300 !important;
+    padding: 5px 0px 0px 0px !important;
+    
+
+  }
+
+  .passHeadBlock h5{
+    color: white !important;
+    width: 100% !important;
+  }
+  .paragraphInAddon{
+    flex: 2 !important;
+    padding: 12px !important;
+  } 
+  .card{
+    width:80%;
+    margin:15px auto;
+    border-radius: 16px 0px 0px 0px;
+     background-color: #F5F5F5;
+  }
+  .rupees{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    padding: 0px 10px;
+    text-align: end;
+    margin-right: 5px;
+  }
+  .summary{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 12px;
+    display: flex;
+    align-items: flex-end;
+    color: #666666;
+    padding: 0px 10px;
+    margin-right: 5px;
+
+  }
+  .btnAddon{
+    border-radius:'8px 0 8px 8px ' !important;
+  }

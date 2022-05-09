@@ -1,0 +1,36 @@
+
+.mainSection{
+            height: auto;
+            margin: auto;
+			display: flex; 
+             justify-content: space-around;
+			 transition: all 0.2 linear;
+             gap:2px;
+        }
+
+.subSection{
+    display:flex;
+    flex-direction: row;
+}
+
+.autoComple{
+    width:205px ;
+}
+
+.swapArrow {
+    margin-top: 8px;
+    cursor :pointer;
+}
+.dateSection{
+    width:205px ;
+}
+
+.promoSection{
+    width:205px ;
+}
+
+.dropDownIataCode{
+    width: max-content;
+    padding: 10px 16px;
+    margin-top:6px;
+}

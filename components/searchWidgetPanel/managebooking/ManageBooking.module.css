@@ -1,0 +1,23 @@
+.box1Flex{
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    justify-content: space-between;
+}
+.bottom{
+    margin-top: 1.5rem;
+    color:#5C0FD9;
+    font-size: 16px !important;
+    font-weight: 600 !important;
+}
+.text{
+    font-weight: 500 !important;
+    font-size: 16px !important;
+    line-height: 24px !important;
+    color: #333333 !important;
+    margin-bottom: 1.625rem;
+}
+.textf{
+    min-width:27.563rem;
+    height:3rem;
+  }

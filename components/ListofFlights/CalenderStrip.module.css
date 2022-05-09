@@ -1,0 +1,163 @@
+.card {
+    display: block;
+    width: 81%;
+    margin: 30px auto 60px auto;
+    border-radius: 16px 16px 16px 16px;
+    padding: 24px 5px 24px 5px;
+    height: max-content;
+}
+
+.calenBlockWrap {
+    margin-left: 24px;
+    margin-right: 24px;
+    margin-bottom: 12px;
+}
+
+.calenBlock {
+    width: 100%;
+    display: flex;
+    border-bottom: 2px solid #666666;
+    background-color: #F5F5F5;
+}
+
+.bookingDiscount {
+    width: 55%;
+    padding: 8px 16px;
+    background-color: #DECFF6;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    border-radius: 4px;
+}
+
+.trackFlightPrice {
+    background-color: #F5F5F5;
+    height: 48px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 4px;
+}
+
+.calenBlock {
+    width: 100%;
+    display: flex;
+    border-bottom: 2px solid #666666;
+    background-color: #F5F5F5;
+}
+
+.calenAllBlock {
+    height: 80px;
+    width: 85%;
+}
+
+.blocks {
+    height: 80px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.calenIconblocks {
+    position: relative;
+    left: 7px;
+    height: 80px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 8%;
+}
+
+.iconAll {
+    display: flex;
+    flex-direction: row;
+    gap: 1%;
+    color: #FF3600;
+}
+
+.calenderTodayicon {
+    float: left;
+}
+
+.leftClick {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.rightClick {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.scrollleft {
+    height: 80px !important;
+    flex-wrap: nowrap !important;
+    scroll-behavior: smooth !important;
+    width: 99% !important;
+}
+
+#gridlist::-webkit-scrollbar {
+    display: none;
+}
+
+#gridlist {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.gridListBlock {
+    cursor: pointer;
+}
+
+.calenList {
+    width: 150;
+    height: 65px;
+    border-radius: 0px;
+    padding: 19px 10px 20px 10px;
+}
+
+.filterMainBlock {
+    width: 100%;
+    background-color: #F5F5F5;
+    padding: 10px 0px 0px 5px;
+}
+
+.fliterSubBlock {
+    display: flex;
+    justify-content: space-between;
+    width: 35%;
+    background-color: #F5F5F5;
+}
+
+.filterBlock:hover {
+    color: #FF3600;
+    cursor: pointer;
+}
+
+.activeCalenderList {
+    color: #FF3600 !important;
+    border-bottom: 3px solid #FF3600 !important;
+}
+
+.toggleButtonFlightStopBlock {
+    width: 100%;
+    justify-content: space-between;
+}
+
+.toggleFlightStopBlock {
+    height: 34px;
+}
+
+.toggleButtonFlightStopBlock {
+    justify-content: space-between;
+}
+
+.toggleDepartureTimeBlock {
+    height: 34px;
+}

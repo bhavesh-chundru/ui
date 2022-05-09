@@ -1,0 +1,153 @@
+.FlightsListContainer{
+    display: flex;
+	flex-direction:column;
+    gap: 12px;
+    font-family: Poppins !important;
+    font-style: normal !important;
+}
+  .root{
+    width: 100%;
+    max-height: 100%;
+    background-color: #FFFFFF;
+    border: 1px solid #E1E1DF;
+    border-radius: 4px;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  .LowFare{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+  }
+  .lowfareLogo{
+      background-color : #037E0B;
+      color:#FFFFFF;
+      height: 22px;
+      /* width: 108px; */
+      font-size: 12px;
+      font-weight: 500 !important;
+      border-radius: 0 4px 0 0 !important;
+      padding: 4px 9px;
+  
+  }
+  .subRoot {
+    display:flex; 
+    flex-direction:row;
+    justify-content:space-between;
+    margin-inline :10px;
+    margin-top:5px;
+    text-align:center;
+}
+
+.ODTerminal {
+    font-size:16px;
+    font-weight:500 !important;
+} 
+
+.TimePrice {
+  font-size:24px;
+  font-weight:500 !important; 
+}
+
+.DurationStops{
+    font-size:14px;
+    font-weight:500 !important;
+}
+
+.flightStatusSection {
+    display: flex !important;
+    flex-direction: row !important;
+    gap: 6px !important;
+}
+
+.FlightlogoPosition{
+    position: relative !important;
+    top: 7px !important;
+    height:19px;
+    width:20px;
+}
+
+
+.MakeInline {
+    display:inline-block;
+    font-weight:500 !important;
+}
+
+.changeColor {
+    color :#FF6300;
+}
+
+.SelectBtn  {
+    color:white ;
+    background-color: #FF6300 ;
+    border-radius: 8px 0px 8px 8px;  
+    text-transform:none; 
+    Width:98px;
+    Height: 40px;
+    font-size:16px;
+    font-weight:600 !important;
+}  
+    .SelectBtn:hover{
+    color:white;
+    background-color: #FF6300 !important;
+    border-radius: 8px 0px 8px 8px; 
+    text-transform:none;
+    Width:98px;
+    Height: 40px;
+    font-size:16px;
+    font-weight:600 !important;
+    
+
+}
+.SelectedBtn  {
+    color:#333333;
+    background-color: #FFFFFF ;
+    border :1px solid #333333;
+    border-radius: 8px 0px 8px 8px;  
+    text-transform:none;
+    Width:98px;
+    Height: 40px;
+    font-size:16px;
+    font-weight:600 !important; 
+
+}
+.offerMessage{
+    height:37px;
+    background-color:#FFDFCC;
+    width:100%;
+    padding:8px 16px;
+}
+.offerMessagePara{
+    font-size:14px;
+    font-weight:500 !important;
+    color:#333333;
+}
+.GreyRectangle  {
+    width: 100%;
+    height: max-content;
+    background-color: #F5F5F5;
+    font-Weight: 500 !important;
+    font-Size: 12px;
+    line-height: 18px;
+    color: #666666 !important;
+    padding-top: 14px;
+    padding-bottom: 9px;
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: flex-start;
+    /* grid-gap: 15px; */
+    gap: 0px;
+    -webkit-padding-start: 18px;
+    padding-inline-start: 18px;
+    /* flex-wrap: wrap; */
+}
+ 
+
+
+.curr BiRupee{
+    position: relative;
+    top: -2px;
+    left: 13px;
+}
+.AlignLeft{
+    text-align: end;
+}

@@ -1,0 +1,634 @@
+
+/* outer box start */
+.outerBox{
+    padding: 1.5rem !important;
+    background-color:#F5F5F5 !important;
+}
+/* outer box end */
+/* Box1 start */
+.box1{
+    max-width:68.25rem;
+    height:max-content;
+    padding:1.25rem 1.5rem;
+    border-radius: 16px 0 0 0;
+}
+.positionPlain{
+    position:absolute;
+    left:48%;
+    top:25%;
+}
+.rel{
+    position: relative;
+}
+.poweredBY{
+    display:flex !important;
+    flex-direction:row !important;
+    margin-left:6.938rem !important;
+    margin-top:0.625rem !important;
+    justify-content:space-between !important;
+}
+.flyBook{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+}
+.flyDet{
+    display:flex;
+    flex-direction:column;
+}
+.flyTime{
+    font-size:24px !important;
+    color:#333333 !important;
+}
+.flyDate{
+    font-size:16px !important;
+    color:#666666 !important;
+}
+.flyMidTim{
+    color:#666666;
+    font-size:14px !important;
+    position:relative;
+    left:18.125rem;
+}
+.flyRoot{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    margin-bottom:1rem;
+}
+.flyRootSt{
+    display:flex;
+    flex-direction:column;
+}
+.flyRootCity{
+    font-size:24px !important;
+    color:#333333 !important;
+}
+.flyRootAdd{
+    width:17.813rem;
+    height:3.25rem;
+}
+.flyRootStop{
+    font-size:14px !important;
+    color:#666666;
+    margin-top:1.5rem !important;
+}
+.flyRootDes{
+    display:flex;
+    flex-direction:column;
+    text-align:right;
+}
+.flyRootDCit{
+    margin-top:1rem;
+    display:inline-block;
+}
+.flyRootDtext{
+    font-size:24px !important;
+    color:#333333;
+}
+.flyDesAdd{
+    width:17.813rem;
+    height:3.25rem;
+}
+.flyDesAddt{
+    color:#666666;
+    font-size:16px !important;
+    margin-top:0.25rem !important;
+}
+.flyNo{
+    display:flex;
+    flex-direction:row;
+    margin-top:1.5rem;
+    margin-bottom: 1rem;
+    align-items:center;
+    justify-content:flex-end;
+}
+
+.pnrFlex{
+    display:flex;
+    flex-direction:column;
+}
+.pnr{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    margin-top:1rem;
+    margin-bottom:1rem;
+}
+.pnrFlex2{
+    display:flex;
+    flex-direction:column;
+}
+.flight{
+    align-items:left;
+    margin-top:1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+}
+.flightTex{
+    font-weight: 600 !important;
+    font-size: 18px !important;
+    line-height: 27px !important;
+    color: #5C0FD9 !important;
+    text-transform: none;
+}
+/* Box1 ends */
+/* box2 starts */
+.Box2{
+    margin-top:0.563rem;
+    max-width:68.25rem;
+    height:29.25rem;
+    padding:1.25rem 1.5rem;
+}
+.box2Item{
+    display:flex;
+    flex-direction:column;
+}
+.row1{
+    display:flex;
+    flex-direction:row;
+}
+.r1I1{
+    width:15.938rem;
+    height:7.5rem;
+    text-align:center;
+    margin:1rem 0.5rem 0.5rem 0;
+}
+.r1m{
+    margin-top:0.5rem;
+    margin-bottom: 1.5rem;
+}
+.row2{
+    display:flex;
+    flex-direction:row;
+}
+.r2I1{
+    width:15.938rem;
+    height:7.5rem;
+    text-align:center;
+    margin-bottom:0.5rem;
+    margin-right:0.5rem;
+}
+.row3{
+    display:flex;
+    flex-direction:row;
+    justify-content:'left'
+}
+.r3I1{
+    width:15.938rem;
+    height:7.5rem;
+    text-align:center;
+    margin-right:0.5rem;
+}
+.travtext{
+    padding:11px 24px;
+    color:#333333;
+    font-size:16px !important;
+}
+/* box2 ends */
+/* box3 starts */
+.travel{
+    margin-top:1rem;
+    background:#EEE7FA;
+    max-width:1092px;
+    height:max-content;
+    border-radius:8px;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.travArr{
+    margin-right: 1.75rem;
+    height: 20px !important;
+    width: 20px !important;
+}
+/* box3 ends */
+/* box4 starts */
+.box4{
+    max-width:68.25rem;
+    height:9.188rem;
+    background-color:#FFDFCC;
+    margin-top:16px;
+    padding-top:8px;
+    border-radius:16px;
+}
+.inerBox{
+    display:flex;
+    flex-direction:row;
+    width:67.188rem;
+    height:6.063rem;
+    background-color:#FFFFFF;
+    margin-left:0.5rem;
+    margin-right:0.5rem;
+    border-radius: 8px;
+}
+.b4svg{
+    padding-left:1.563rem;
+    padding-top:0.625rem;
+}
+.b4tit{
+    display:flex;
+    flex-direction:column;
+    padding-top:0.875rem;
+    padding-left:0.375rem;
+    width:98%;
+}
+.box4Flex{
+    display:flex;
+    flex-direction:row;
+}
+.peaceMind{
+    font-size:24px !important;
+    color:#333333 !important;
+    margin-top:0.5rem !important;
+}
+/* box4 ends */
+/* box5 start */
+.blr{
+    color:#333333 !important;
+    font-size:24px !important;
+    margin-top:1.5rem !important;
+    margin-bottom:1.125rem !important;
+    font-weight:700 !important;
+}
+.cancellation{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    padding-top:0.125rem;
+}
+/* box5 ends */
+/* box6 start */
+.blrFl1{
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+}
+.blrP1{
+    margin-right:1rem;
+    border-radius:16px 0 16px 16px !important;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1) !important;
+    height: 15.25rem;
+    text-align: center;
+}
+.p1box{
+    text-align:center;
+    width:14.938rem;
+    height:15.25rem;
+    background-color:#FFFFFF;
+    border:2px solid #C99B09;
+    border-radius: 16px 0 16px 16px;
+}
+.popular{
+    background-color:#7D3EE4;
+    text-align:center;
+    width:5.438rem;
+    font-size:12px !important;
+    color:#FFFFFF;
+    font-weight:500 !important;
+    margin-left: 64% !important;
+}
+.blrSvg1{
+    margin-top:1.688rem;
+}
+.premium{
+    color:#C99B09;
+    font-size:21px !important;
+    font-weight:600 !important;
+    margin-bottom:0.5rem;
+}
+.getPre{
+    color:#333333;
+    font-size:14px !important;
+    font-weight:400 !important;
+    width:12.25rem !important;
+    padding-left:1.375rem !important;
+}
+.blrp2{
+    margin-right:1rem;
+    height: 15.25rem;
+    border-radius: 16px 0 16px 16px !important;
+}
+.p2inner{
+    text-align:center;
+    width:14.938rem;
+    height:15.25rem;
+    background-color:#FFFFFF;
+    padding-top:3.146rem;
+    border-radius: 16px 0 16px 16px;
+}
+.blrVal{
+    color:#037E0B;
+    font-size:21px !important;
+    font-weight:600 !important;
+}
+.valTex{
+    color:#333333;
+    font-size:14px !important;
+    font-weight:400 !important;
+    width:12.25rem ;
+    padding-left:1.375rem;
+}
+.valPir{
+    color:#333333;
+    font-size:16px !important;
+    font-weight:400 !important;
+    margin-top:0.5rem;
+}
+.flex2{
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+}
+.f2Col{
+    display:flex;
+    flex-direction:column;
+}
+/* box6 ends */
+ .ibar{
+    position: relative !important;
+    height: 2px !important;
+    bottom:20px !important;
+ }
+ .chr{
+     background-color:#E1E1DF;
+     margin:0;
+ }
+ .svgi{
+     margin-top:0.5rem !important;
+ }
+.canceIcon{
+    padding-right: 0.5rem !important;
+}
+.mealsBox{
+        width: 17.063rem;
+        height: 7.125rem;
+        margin-right: 1rem;
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 1rem;
+        padding-top: 1rem;
+        gap: 0.5rem;
+        justify-content: space-between;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        border-radius: 16px;
+        box-shadow: 0px 2px 10px rgb(0 0 0 / 10%);
+}
+.cancelCover{
+    width:17.063rem;
+    height:7.125rem;
+    margin-right:1rem;
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between;
+    margin-bottom:1rem;
+    padding-top:1rem;
+    padding-left:1rem;
+    padding-right: 1rem;
+    border-radius:16px;
+    box-shadow:0px 2px 10px rgba(0, 0, 0, 0.1);
+}
+.akasaFlexIcon{
+    width:17.063rem;
+    height:7.125rem;
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between;
+    padding-right: 1rem;
+    margin-right:1rem;
+    margin-bottom:1rem;
+    padding-top:1rem;
+    padding-left:1rem;
+    border-radius:16px;
+    box-shadow:0px 2px 10px rgba(0, 0, 0, 0.1);
+}
+.premiumAkasa2{
+    width:17.063rem;
+    height:7.125rem;
+    display:flex;
+    flex-direction:row;
+    margin-right:1rem;
+    margin-bottom:1rem;
+    padding-top:1rem;
+    padding-left:1rem;
+    padding-right: 1rem;
+    justify-content: space-between;
+    border-radius:16px;
+    box-shadow:0px 2px 10px rgba(0, 0, 0, 0.1);
+}
+/* .infoIcon{
+    margin-top: 0.438rem;
+} */
+
+
+
+
+
+
+ /* Add more starts */
+.addBar{
+    display: flex !important;
+    flex-direction: row !important;
+    align-items: center !important;
+    justify-content: right !important;
+ }
+.addBarCon{
+    color:#5C0FD9;
+    font-size: 1.125rem !important;
+    font-weight: 600 !important;
+    margin-top: 1.5rem !important;
+
+}
+.addBarIoc{
+    font-size: 0.825rem !important;
+    color:#FF6300;
+    margin:0;
+    margin-right: 1.5rem;
+    margin-top: 1.5rem;
+}
+.nine{
+    color:#333333 !important;
+    font-size:16px !important;
+    font-weight:400 !important;
+    margin-top:0.5rem !important;
+}
+ /* Add more ends */
+ /* Accordion start */
+.BoxAccordion{
+    max-width: 68.25rem;
+    margin-top: 2.25rem;
+}
+.accMargin{
+    margin-bottom: 0.25rem;
+}
+.accTit{
+    color:#333333;
+    font-size: 20px;
+    font-weight: 500;
+}
+.ahr{
+    background-color:#E1E1DF;
+    margin-top: 0.5rem;
+    max-width: 65.625rem;
+}
+        /* mui class */
+.accDet{
+    padding-top: 0 !important;
+}
+.accSum{
+    margin-bottom: 0 !important;
+}
+.accCon{
+    display: flex;
+    flex-direction: row;
+    margin-top: 0.5rem;
+}
+.john{
+    font-size: 18px;
+    font-weight: 500;
+    color:#333333;
+}
+.text{
+    font-size: 16px;
+    font-weight: 500;
+    color:#333333;
+}
+.aVer{
+    margin-left: 1.5rem;
+    margin-right: 1.438rem;
+}
+
+/* pay accordion */
+.paytitle{
+    font-size: 18px !important;
+    font-weight: 600 !important;
+    color:#333333;
+    padding-top: 0.688rem !important;
+}
+.payFlex{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.conFlex{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.paycon{
+    font-size: 16px;
+    font-weight: 400;
+    color:#333333;
+    margin-top: 0.438rem;
+}
+.payconT{
+    font-size: 16px;
+    font-weight: 400;
+    color:#333333;
+    margin-top: 0.438rem;
+}
+.payDis{
+    color:#037E0B;
+    font-size: 16px;
+    font-weight: 400;
+    padding-top: 1rem;
+}
+.payEx{
+    font-size: 16px !important;
+    font-weight: 600 !important;
+    color:#333333;
+    margin-top: 1.5rem !important;
+    margin-bottom: 0.75rem !important;
+}
+.payEnd{
+    font-size: 18px;
+    font-weight: 600;
+    color: #333333;
+    margin-top: 0.5rem !important;
+    margin-bottom: 1rem !important;
+}
+.payTax{
+    font-size: 16px !important;
+    font-weight: 600 !important;
+    color:#333333;
+    margin-top: 1.063rem !important;
+    margin-bottom: 0.75rem !important;
+}
+.btnDown{
+    background-color:#FFFFFF !important;
+    color:#333333 !important;
+    font-size: 16px !important;
+    border-radius: 8px 0 8px 8px !important;
+    border: 1px solid #333333 !important;
+    margin:1rem auto !important;
+}
+.accTit1{
+    color:#333333;
+    font-size: 20px;
+    font-weight: 500;
+    padding-bottom: 1.5rem;
+}
+.btnDown:hover{
+    background-color:transparent !important;
+}
+
+.invoiceButton{
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: center !important;
+}
+.share{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color:#FFFFFF;
+    max-width: 68.25rem;
+    height: fit-content;
+    padding-left: 1rem;
+    border-radius: 4px 0 4px 4px;
+    margin-bottom: 0.25rem;
+}
+.shareIcon{
+    width: 1.125rem;
+    height: 1.245rem;
+    margin:1rem 1rem 0.813rem 1rem;
+}
+.needHelp{
+    max-width: 68.25rem;
+    background-color: #FFFFFF;
+    padding-top: 1.5rem;
+    padding-left: 1rem;
+    height: fit-content;
+    padding-top: 1.5rem;
+}
+.needHelpFlex{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 1.002rem;
+    padding-bottom: 1.875rem;
+}
+.needHelpB1{
+    display: flex;
+    flex-direction: row;
+    padding:1.25rem;
+    width: 21.373rem;
+    border-radius: 8px 0 8px 8px;
+}
+.nIcon{
+    margin-right: 1rem;
+}
+
+.callIcon{
+    width:36px;
+    height:36px;
+    color:#485B60;
+}
+ /* Accordion ends */
